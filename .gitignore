@@ -1,0 +1,32 @@
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Node / package manager artifacts
+node_modules/
+**/node_modules/
+**/package-lock.json
+**/pnpm-lock.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+*.err
+
+# Expo / React Native generated output
+.expo/
+**/.expo/
+dist/
+**/dist/
+android/build/
+android/.gradle/
+ios/Pods/
+ios/build/
+coverage/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
